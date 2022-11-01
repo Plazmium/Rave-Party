@@ -1,0 +1,24 @@
+{
+  "Title": "Rave Party",
+  "Type": "addon",
+  "Org": "plazmium",
+  "Ident": "raveparty",
+  "Tags": "",
+  "Schema": 1,
+  "HasAssets": false,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": null,
+  "Metadata": {
+    "ParentPackage": "",
+    "PackageSettings": [
+      {
+        "Choices": [],
+        "ConVarName": "",
+        "DisplayName": "New Setting..."
+      }
+    ]
+  }
+}
