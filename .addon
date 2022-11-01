@@ -15,9 +15,14 @@
     "ParentPackage": "",
     "PackageSettings": [
       {
+        "DisplayType": "Float",
         "Choices": [],
-        "ConVarName": "",
-        "DisplayName": "New Setting..."
+        "ConVarName": "ravespeed",
+        "DisplayName": "Rave Speed",
+        "DefaultValue": "0.1",
+        "Description": "The time between light changes in seconds (default = 0.1)",
+        "Group": "",
+        "Maximum": 10
       }
     ]
   }
