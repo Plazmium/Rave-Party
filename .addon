@@ -34,6 +34,10 @@
       "RootNamespace": "Sandbox",
       "DefineConstants": "SANDBOX;ADDON;DEBUG",
       "NoWarn": "1701;1702;1591;"
-    }
+    },
+    "Summary": "random flashing lights",
+    "Description": "random flashing lights",
+    "Public": true,
+    "ReplaceTags": "color colors colorful rainbow rave party colour colours epic"
   }
 }
