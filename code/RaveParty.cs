@@ -9,12 +9,12 @@ public class RaveParty
     [ConVar.Replicated("ravespeed", Help = "The time between light changes in seconds (default = 0.1)", Min = 0f, Max = 10f, Saved = true)]
     public static float ravespeed { get; set; } = 0.1f;
 
-    [Event.Frame]
+    [Event.Client.Frame]
     public static void Rave()
-	{
+    {
         elapsed += Time.Delta;
         if (elapsed < ravespeed) return;
         elapsed = 0f;
-        Map.Scene.AmbientLightColor = Color.FromBytes(Rnd.Next(256), Rnd.Next(256), Rnd.Next(256), Rnd.Next(256));
+        Camera.Main.AmbientLightColor = Color.FromBytes(Rnd.Next(256), Rnd.Next(256), Rnd.Next(256), Rnd.Next(256));
     }
 }
